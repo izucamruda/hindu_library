@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Библиотека индуизма | Бхагавад Гита</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Бхагавад Гита</h1>
+        <button class="theme-toggle" id="themeToggle">Ночной режим</button>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Главы</h2>
+            <ul class="chapter-list" id="chapterList">
+            </ul>
+        </aside>
+
+        <main class="content">
+            <div class="image-container">
+                <img src="krishna_arjuna.jpg" alt="Кришна и Арджуна" class="holy-image" id="holyImage">
+            </div>
+            
+            <h2 class="chapter-title" id="chapterTitle">Глава 1: Наблюдение армий на поле битвы Курукшетра</h2>
+            
+            <div id="versesContainer">
+                <!-- Стихи добавляются через JS -->
+            </div>
+            
+            <div class="progress-container">
+                <h3>Ваш прогресс чтения</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <p>Прочитано: <span id="progressText">0%</span></p>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
