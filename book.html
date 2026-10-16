@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Библиотека индуизма</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Marcellus&family=Spectral:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                <span class="om-symbol">ॐ</span>
+                <span class="site-title">Библиотека индуизма</span>
+            </a>
+            <div class="header-actions">
+                <a href="index.html" class="btn btn-ghost" id="backButton">← К полке</a>
+                <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
+                    <span class="theme-icon">🌙</span>
+                    <span class="theme-text">Ночной режим</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="book-header" id="bookHeader">
+            <!-- Рендерится через JS -->
+        </section>
+
+        <section class="chapters-section">
+            <div class="section-header">
+                <h2 class="section-title">Главы</h2>
+                <div class="ornament-line"></div>
+            </div>
+            <div class="chapters-grid" id="chaptersGrid">
+                <!-- Рендерится через JS -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="ornament">ॐ</div>
+        <p>Пусть знание ведёт к свету</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/book.js"></script>
+</body>
+</html>
